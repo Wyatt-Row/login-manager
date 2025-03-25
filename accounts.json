@@ -1,0 +1,14 @@
+{
+    "Accounts": [
+        {
+            "Username": "RussianMan",
+            "Password": "TestData0!",
+            "Salt": "erkgjbaskfjbqwkejfbwqk"
+        },
+        {
+            "Username": "testtest0!",
+            "Password": "VffUAnG0m8ZJ0chfMsrNU3BekBUDzEGUA8MY+asAfH0=",
+            "Salt": "fLzIfZ2YkiiXLNmHmpFq7Q=="
+        }
+    ]
+}
