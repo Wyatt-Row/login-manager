@@ -28,7 +28,7 @@ def acc_creation():
 
     try:
         # Open database file with relative location
-        with open("account_data/accounts.json", "r+") as file:
+        with open("accounts.json", "r+") as file:
             # Access data of the file with json.load
             data = json.load(file)
 
@@ -82,7 +82,7 @@ def hashword(password_input):
 def login():
     try: 
         # Access file with open method, save it as variable file
-        with open("account_data/accounts.json", "r+") as file:
+        with open("accounts.json", "r+") as file:
             # Set the data parsing function to parse file at variable data
 
             data = json.load(file)
@@ -140,7 +140,7 @@ def login():
 
 def upload(userdata):
     # Open file
-    with open("account_data/accounts.json", "r+") as file:
+    with open("accounts.json", "r+") as file:
         # Access entire files data
         data = json.load(file)
         
